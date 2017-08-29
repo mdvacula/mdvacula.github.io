@@ -4,15 +4,15 @@ html {
 }
 
 body {
-  background-color: #1c7bd1;
+  background-color: #a0c5f0;
   color: #303030;
   margin-bottom: 60px;
 }
 
-h1 {
+  .name{
   background-color: #303030;
   border-radius: 5px;
-  color: #1c7bd1;
+  color: #a0c5f0;
   margin-top: 5px;
   padding: 15px;
 }
@@ -26,7 +26,7 @@ a{
 a:hover{
   background-color: #303030;
   border-radius: 5px;
-  color: #1c7bd1;
+  color: #a0c5f0;
   text-decoration: none;
 
 }
@@ -40,5 +40,5 @@ a:hover{
   line-height: 60px;
   /* Vertically center the text there */
   background-color: #303030;
-  color: #1c7bd1;
+  color: #a0c5f0;
 }
