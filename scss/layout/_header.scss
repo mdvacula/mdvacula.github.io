@@ -1,0 +1,42 @@
+.header {
+    height: 85vh;
+    background-image: linear-gradient(to top left, #2A5298, #008DC8, #00C6D5, #6FFACB);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    box-shadow: 0 .7rem 2.5rem black;
+    border-radius: 2px;
+    
+    &__text-box {
+        box-sizing: border-box;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &__image-box {
+    margin-top: 10rem;   
+       width: 75%;  
+       display: inline-block;
+
+       &-image{
+           width: 100%;
+           padding: 1.3rem;
+           background-color: #F5F8FF;
+           border-radius: 2px;
+           box-shadow: 0 1rem 2rem black;
+       }
+       @include respond(phone) {
+           width: 100%;
+           margin-top: rem;
+           &-image {
+               padding:0;
+           }
+       }
+      
+    }
+
+
+}
