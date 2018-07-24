@@ -25,7 +25,7 @@
             margin-top: 2rem;
             display: inline-block;
             width: 50rem;
-            box-shadow: 0 .7rem 3rem #2A5298;
+            box-shadow: 0 .7rem 3rem $color-dark-blue;
 
             @include respond(phone) {
                 width: 30rem;

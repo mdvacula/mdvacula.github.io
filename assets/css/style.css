@@ -143,10 +143,22 @@ body {
       margin-top: 2rem;
       display: inline-block;
       width: 50rem;
-      box-shadow: 0 .7rem 3rem #2A5298; }
+      box-shadow: 0 0.7rem 3rem #2A5298; }
       @media (max-width: 38.5em) {
         .header__image-box-image {
           width: 30rem; } }
+
+.footer {
+  text-align: center;
+  background-image: linear-gradient(to bottom left, #2A5298, #CD6574);
+  color: white;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 .9rem 2rem black; }
+  .footer__copy {
+    margin-top: 10rem;
+    font-size: 1.6rem;
+    padding-bottom: 2rem; }
 
 .section-about {
   background-color: #F1F1E6;

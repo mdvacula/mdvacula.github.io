@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    background-image: linear-gradient( to bottom left, #2A5298,#CD6574);
+    color: white;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 .9rem 2rem black;
+   
+    &__copy {
+        margin-top: 10rem;
+       font-size: $default-font-size;
+       padding-bottom: 2rem;
+    }
+}
