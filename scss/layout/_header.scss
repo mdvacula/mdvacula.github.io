@@ -8,35 +8,24 @@
     border-radius: 2px;
     
     &__text-box {
+        margin-top: 2rem;
         box-sizing: border-box;
-        position: absolute;
-        top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         text-align: center;
     }
 
     &__image-box {
-    margin-top: 10rem;   
-       width: 75%;  
-       display: inline-block;
+        box-sizing: border-box; 
+        margin: 0 auto;
+        text-align: center;
+        &-image{
+            margin-top: 2rem;
+            display: inline-block;
+            width: 50rem;
+            
 
-       &-image{
-           width: 100%;
-           padding: 1.3rem;
-           background-color: #F5F8FF;
-           border-radius: 2px;
-           box-shadow: 0 1rem 2rem black;
-       }
-       @include respond(phone) {
-           width: 100%;
-           margin-top: rem;
-           &-image {
-               padding:0;
-           }
-       }
-      
+            @include respond(phone) {
+                width: 30rem;
+            }
+        }
     }
-
-
 }

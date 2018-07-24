@@ -125,28 +125,20 @@ body {
   box-shadow: 0 .7rem 2.5rem black;
   border-radius: 2px; }
   .header__text-box {
+    margin-top: 2rem;
     box-sizing: border-box;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center; }
   .header__image-box {
-    margin-top: 10rem;
-    width: 75%;
-    display: inline-block; }
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center; }
     .header__image-box-image {
-      width: 100%;
-      padding: 1.3rem;
-      background-color: #F5F8FF;
-      border-radius: 2px;
-      box-shadow: 0 1rem 2rem black; }
-    @media (max-width: 38.5em) {
-      .header__image-box {
-        width: 100%;
-        margin-top: rem; }
+      margin-top: 2rem;
+      display: inline-block;
+      width: 50rem; }
+      @media (max-width: 38.5em) {
         .header__image-box-image {
-          padding: 0; } }
+          width: 30rem; } }
 
 .section-about {
   background-color: #DDEBEA;
