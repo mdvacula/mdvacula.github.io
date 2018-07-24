@@ -57,10 +57,14 @@ body {
 .heading-secondary {
     font-size: 3.5rem;
     text-transform: uppercase;
+    color: #64A8FF;
+    margin-bottom: 2rem;
 }
 
 .paragraph {
     font-size: $default-font-size;
+    color: #737687;
+    font-weight: 600;
 
     &:not(:last-child) {
         margin-bottom: 2.5rem;

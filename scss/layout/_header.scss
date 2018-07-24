@@ -7,6 +7,9 @@
     box-shadow: 0 .7rem 2.5rem black;
     border-radius: 2px;
     
+    @include respond(phone) {
+        height: 65vh;
+    }
     &__text-box {
         margin-top: 2rem;
         box-sizing: border-box;
@@ -17,11 +20,12 @@
         box-sizing: border-box; 
         margin: 0 auto;
         text-align: center;
+        
         &-image{
             margin-top: 2rem;
             display: inline-block;
             width: 50rem;
-            
+            box-shadow: 0 .7rem 3rem #2A5298;
 
             @include respond(phone) {
                 width: 30rem;

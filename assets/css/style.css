@@ -69,10 +69,14 @@ body {
 
 .heading-secondary {
   font-size: 3.5rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #64A8FF;
+  margin-bottom: 2rem; }
 
 .paragraph {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  color: #737687;
+  font-weight: 600; }
   .paragraph:not(:last-child) {
     margin-bottom: 2.5rem; }
 
@@ -124,6 +128,9 @@ body {
   position: relative;
   box-shadow: 0 .7rem 2.5rem black;
   border-radius: 2px; }
+  @media (max-width: 38.5em) {
+    .header {
+      height: 65vh; } }
   .header__text-box {
     margin-top: 2rem;
     box-sizing: border-box;
@@ -135,11 +142,13 @@ body {
     .header__image-box-image {
       margin-top: 2rem;
       display: inline-block;
-      width: 50rem; }
+      width: 50rem;
+      box-shadow: 0 .7rem 3rem #2A5298; }
       @media (max-width: 38.5em) {
         .header__image-box-image {
           width: 30rem; } }
 
 .section-about {
-  background-color: #DDEBEA;
-  padding: 10rem 0; }
+  background-color: #F1F1E6;
+  padding: 7.5rem 2rem;
+  text-align: center; }
