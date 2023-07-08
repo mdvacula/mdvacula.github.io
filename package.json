@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mdvacula/mdvacula.github.io#readme",
   "dependencies": {
-    "node-sass": "^4.9.2"
+    "node-sass": "^9.0.0"
   }
 }
